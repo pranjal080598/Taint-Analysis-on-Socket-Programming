@@ -1,0 +1,84 @@
+001 
+002 
+003 // A Java program for a Client
+004 import java.net.*;
+005 import java.io.*;
+006 import java.util.Scanner;
+007 
+008 public class Client
+009 {
+010     // initialize socket and input output streams
+011     private Socket socket		 = null;
+012     private DataInputStream input = null;
+013     private DataOutputStream out	 = null;
+014 
+015     // constructor to put ip address and port
+016     public Client(String address, int port)
+017     {
+018         // establish a connection
+019         try
+020         {
+021             socket = new Socket(address, port);
+022             System.out.println("Connected");
+023 
+024             // takes input from terminal
+025             input = new DataInputStream(System.in);
+026 
+027             // sends output to the socket
+028             out = new DataOutputStream(socket.getOutputStream());
+029         }
+030         catch(UnknownHostException u)
+031         {
+032             System.out.println(u);
+033         }
+034         catch(IOException i)
+035         {
+036             System.out.println(i);
+037         }
+038 
+039         // string to read message from input
+040         String line = "";
+041 
+042         // keep reading until "Over" is input
+043         while (!line.equals("Over"))
+044         {
+045             try
+046             {
+047                 line = input.readLine();
+048                 out.writeUTF(line);
+049             }
+050             catch(IOException i)
+051             {
+052                 System.out.println(i);
+053             }
+054         }
+055 
+056         // close the connection
+057         try
+058         {
+059             input.close();
+060             out.close();
+061             socket.close();
+062         }
+063         catch(IOException i)
+064         {
+065             System.out.println(i);
+066         }
+067     }
+068 
+069     public static void main(String args[])
+070     {
+071       // regex to validate the port number
+072         String regex = "\\d+";
+073       // Create a Scanner object
+074         Scanner myObj = new Scanner(System.in);
+075         System.out.println("Enter port number to establish connection");
+076         // Read user input
+077         String port_number = myObj.next();
+078 
+079 
+080         // comment this code incase of sanitization
+081         int port_number_int = Integer.parseInt(port_number);
+082         Client client = new Client("127.0.0.1", port_number_int);
+083     }
+084 }

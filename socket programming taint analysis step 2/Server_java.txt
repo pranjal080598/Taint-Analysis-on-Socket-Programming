@@ -1,0 +1,63 @@
+001 
+002 
+003 import java.net.*;
+004 import java.io.*;
+005 
+006 public class Server
+007 {
+008     //initialize socket and input stream
+009     private Socket		 socket = null;
+010     private ServerSocket server = null;
+011     private DataInputStream in	 = null;
+012 
+013     // constructor with port
+014     public Server(int port)
+015     {
+016         // starts server and waits for a connection
+017         try
+018         {
+019             server = new ServerSocket(port);
+020             System.out.println("Server started");
+021 
+022             System.out.println("Waiting for a client ...");
+023 
+024             socket = server.accept();
+025             System.out.println("Client accepted");
+026 
+027             // takes input from the client socket
+028             in = new DataInputStream(
+029                     new BufferedInputStream(socket.getInputStream()));
+030 
+031             String line = "";
+032 
+033             // reads message from client until "Over" is sent
+034             while (!line.equals("Over"))
+035             {
+036                 try
+037                 {
+038                     line = in.readUTF();
+039                     System.out.println(line);
+040 
+041                 }
+042                 catch(IOException i)
+043                 {
+044                     System.out.println(i);
+045                 }
+046             }
+047             System.out.println("Closing connection");
+048 
+049             // close connection
+050             socket.close();
+051             in.close();
+052         }
+053         catch(IOException i)
+054         {
+055             System.out.println(i);
+056         }
+057     }
+058 
+059     public static void main(String args[])
+060     {
+061         Server server = new Server(5000);
+062     }
+063 }

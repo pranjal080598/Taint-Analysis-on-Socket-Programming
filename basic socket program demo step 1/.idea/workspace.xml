@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb36724f-fd9e-4478-95ed-81d792852155" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/averroes-lib-class.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/averroes/AbstractLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/averroes/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/io/Closeable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/io/FilterOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/io/Flushable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/io/OutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/io/PrintStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/io/Serializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/AbstractMethodError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/AbstractStringBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Appendable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ArithmeticException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ArrayIndexOutOfBoundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ArrayStoreException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/AssertionError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Boolean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Byte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/CharSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ClassCastException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ClassCircularityError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ClassFormatError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ClassNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Cloneable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Comparable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Double.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ExceptionInInitializerError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Float.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/IllegalAccessError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/IllegalMonitorStateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/IncompatibleClassChangeError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/IndexOutOfBoundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/InstantiationError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/InternalError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/LinkageError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Long.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/NegativeArraySizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/NoClassDefFoundError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/NoSuchFieldError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/NoSuchMethodError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/NullPointerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Object.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/OutOfMemoryError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/RuntimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Short.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/StackOverflowError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/String.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/StringBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/System.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ThreadDeath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Throwable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/UnknownError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/UnsatisfiedLinkError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/VerifyError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/Void.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/ref/Finalizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/reflect/AnnotatedElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/reflect/GenericDeclaration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/classes/lib/java/lang/reflect/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/organized-app.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/organized-lib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/averroes/placeholder-lib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/hello.dyn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/hello.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/hello.tfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/hello/hello.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/jre/1.4.2_11/rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/jre/1.6.0_45/charsets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/jre/1.6.0_45/jce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/jre/1.6.0_45/jsse.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/jre/1.6.0_45/rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/src/ca/ualberta/spa/callgraphs/examples/Coll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/src/ca/ualberta/spa/callgraphs/examples/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/src/ca/ualberta/spa/callgraphs/examples/Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/src/ca/ualberta/spa/callgraphs/examples/Simple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../callgraphs/src/ca/ualberta/spa/callgraphs/soot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../callgraphs/src/project500/callgraph/soot/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21LNTMKbM3cbyNsZq5KRZoHKUUE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.IdentifyTaint">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="socket program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdentifyTaint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IdentifyTaint" />
+      <module name="socket program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <module name="socket program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IdentifyTaint" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb36724f-fd9e-4478-95ed-81d792852155" name="Changes" comment="" />
+      <created>1637716416208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637716416208</updated>
+    </task>
+    <servers />
+  </component>
+</project>
