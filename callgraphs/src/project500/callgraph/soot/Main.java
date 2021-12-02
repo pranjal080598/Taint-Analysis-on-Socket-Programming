@@ -46,8 +46,8 @@ public class Main {
 		Scene.v().loadNecessaryClasses(); //load all required classes
 		Scene.v().setMainClassFromOptions();
 
-		useRTA(); //run RTA
-//		useVTA(); //run VTA
+//		useRTA(); //run RTA
+		useVTA(); //run VTA
 
 		long end_time = System.currentTimeMillis(); //to calculate the end time
 		long time = (end_time - start_time); //to calculate the total time
@@ -78,7 +78,7 @@ public class Main {
 	private static void createCallGraph() {
 		CallGraph cg = Scene.v().getCallGraph();
 		System.out.println("Edges " + cg.size() + " edges.");
-		System.out.println("Affected Libraries " + Scene.v().getMainMethod());
+		System.out.println("Affected Libraries " + Scene.v().getEntryPoints());
 		String check_affected_library_solution_regex = "java.lang.String";
 		if(Scene.v().getMainMethod().toString().contains(check_affected_library_solution_regex))
 		{
