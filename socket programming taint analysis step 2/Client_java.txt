@@ -75,10 +75,11 @@
 075         System.out.println("Enter port number to establish connection");
 076         // Read user input
 077         String port_number = myObj.next();
-078 
+078         // sanitize port number using regex
 079 
-080         // comment this code incase of sanitization
-081         int port_number_int = Integer.parseInt(port_number);
-082         Client client = new Client("127.0.0.1", port_number_int);
-083     }
-084 }
+080 
+081         // comment this code incase of sanitization
+082         int port_number_int = Integer.parseInt(port_number);
+083         Client client = new Client("127.0.0.1", port_number_int);
+084     }
+085 }

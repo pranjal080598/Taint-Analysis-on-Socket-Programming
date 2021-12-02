@@ -46,8 +46,8 @@ public class Main {
 		Scene.v().loadNecessaryClasses(); //load all required classes
 		Scene.v().setMainClassFromOptions();
 
-//		useRTA(); //run RTA
-		useVTA(); //run VTA
+		useRTA(); //run RTA
+//		useVTA(); //run VTA
 
 		long end_time = System.currentTimeMillis(); //to calculate the end time
 		long time = (end_time - start_time); //to calculate the total time
@@ -88,8 +88,6 @@ public class Main {
 		while (edgesOutOf.hasNext()) {
 			System.out.println(edgesOutOf.next());
 		}
-		CallGraph cgm = Scene.v().getCallGraph();
-		System.out.println("\nIs main method the entry method: " + cgm.isEntryMethod(Scene.v().getMainMethod()));
 	}
 
 }
