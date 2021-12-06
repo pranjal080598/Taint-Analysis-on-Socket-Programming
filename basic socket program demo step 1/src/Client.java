@@ -3,6 +3,7 @@
 // A Java program for a Client
 import java.net.*;
 import java.io.*;
+import java.util.*;
 
 public class Client
 {
@@ -67,6 +68,10 @@ public class Client
 
     public static void main(String args[])
     {
-        Client client = new Client("127.0.0.1", 5000);
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Enter port number to establish connection");
+        String port_number = myObj.next();
+        int port_number_int = Integer.parseInt(port_number);
+        Client client = new Client("127.0.0.1", port_number_int);
     }
 }
