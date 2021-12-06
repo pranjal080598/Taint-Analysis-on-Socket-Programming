@@ -62,3 +62,17 @@ f. Comment either useRTA(); or useVTA(); in 'Main.java'to see results using RTA 
 g. RTA takes more time than VTA to execute.
 
 h. The output will be the number of Edges, Affected Libraries and Solutions.
+
+## Resources
+
+https://users.ece.cmu.edu/~aavgerin/papers/Oakland10.pdf
+
+http://www.cs.columbia.edu/~azavou/taint_exchange_iwsec11.pdf
+
+https://dl.acm.org/doi/10.1145/3341105.3373924
+
+http://www.airccse.org/journal/nsa/0113nsa01.pdf
+
+https://www.sciencedirect.com/science/article/pii/S089812211100664X?via%3Dihub
+
+https://www.usenix.org/legacy/event/webapps10/tech/full_papers/Davis.pdf
