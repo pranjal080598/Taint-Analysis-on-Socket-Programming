@@ -40,10 +40,15 @@ b. Sanitization results:
 - On the command prompt, execute the command: 'javac IdentifyTaint.java' followed by 'java IdentifyTaint'
 - The result should depcit that no taint exists in the code as the input is sanitized.
 
+![image](https://user-images.githubusercontent.com/46446655/145279953-152e8706-d0d6-4bfe-a5f4-eb066e449d5d.png)
+
 c. Non-Sanitization results:
 - Remove the pattern.matches regex to check if the port number contains only integer value in Client.java code.
 - On the command prompt, execute the command: 'javac IdentifyTaint.java' followed by 'java IdentifyTaint'
 - The result should depict that taint exists in the code and is propagated to Server code as the input it is not sanitized.
+
+![image](https://user-images.githubusercontent.com/46446655/145280121-218d4da8-ef65-4f0c-911d-f63e317b6783.png)
+
 
 ### Step 3: Call Graph Creation for Analyzing Affected Libraries
 
@@ -53,7 +58,7 @@ b. Download soot.jar package.
 
 c. Import the package to the project structure.
 
-d. Add all other libraries present in the repository to the libraries section the IDE.
+d. Add all other libraries present in the repository to the libraries section of the IDE.
 
 e. Specify appropriate Java Version in the project structure.
 
@@ -62,3 +67,17 @@ f. Comment either useRTA(); or useVTA(); in 'Main.java'to see results using RTA 
 g. RTA takes more time than VTA to execute.
 
 h. The output will be the number of Edges, Affected Libraries and Solutions.
+
+## Resources
+
+https://users.ece.cmu.edu/~aavgerin/papers/Oakland10.pdf
+
+http://www.cs.columbia.edu/~azavou/taint_exchange_iwsec11.pdf
+
+https://dl.acm.org/doi/10.1145/3341105.3373924
+
+http://www.airccse.org/journal/nsa/0113nsa01.pdf
+
+https://www.sciencedirect.com/science/article/pii/S089812211100664X?via%3Dihub
+
+https://www.usenix.org/legacy/event/webapps10/tech/full_papers/Davis.pdf
