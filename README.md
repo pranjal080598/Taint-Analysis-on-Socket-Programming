@@ -40,7 +40,7 @@ b. Sanitization results:
 - On the command prompt, execute the command: 'javac IdentifyTaint.java' followed by 'java IdentifyTaint'
 - The result should depcit that no taint exists in the code as the input is sanitized.
 
-![alt text](https://github.com/pranjal080598/Taint-Analysis-on-Socket-Programming/issues/1#issue-1074799237)
+![Sanitized Input](https://github.com/pranjal080598/Taint-Analysis-on-Socket-Programming/issues/1#issue-1074799237?raw=true)
 
 
 
