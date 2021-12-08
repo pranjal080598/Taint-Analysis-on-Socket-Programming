@@ -76,9 +76,13 @@
 076         // Read user input
 077         String port_number = myObj.next();
 078 
-079 
-080 
-081 //        int port_number_int = Integer.parseInt(port_number);
-082 //        Client client = new Client("127.0.0.1", port_number_int);
-083     }
-084 }
+079         if (port_number.matches(regex))
+080         {
+081             int port_number_int = Integer.parseInt(port_number);
+082             Client client = new Client("127.0.0.1", port_number_int);
+083         }
+084 
+085 //        int port_number_int = Integer.parseInt(port_number);
+086 //        Client client = new Client("127.0.0.1", port_number_int);
+087     }
+088 }
