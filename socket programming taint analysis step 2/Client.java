@@ -1,4 +1,4 @@
-
+package project500.callgraph.socket;
 
 // A Java program for a Client
 import java.net.*;
@@ -68,18 +68,21 @@ public class Client
 
     public static void main(String args[])
     {
-      // regex to validate the port number
+        // regex to validate the port number
         String regex = "\\d+";
-      // Create a Scanner object
+        // Create a Scanner object
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter port number to establish connection");
         // Read user input
         String port_number = myObj.next();
-        // sanitize port number using regex
 
+        if (port_number.matches(regex))
+        {
+            int port_number_int = Integer.parseInt(port_number);
+            Client client = new Client("127.0.0.1", port_number_int);
+        }
 
-        // comment this code incase of sanitization
-        int port_number_int = Integer.parseInt(port_number);
-        Client client = new Client("127.0.0.1", port_number_int);
+//        int port_number_int = Integer.parseInt(port_number);
+//        Client client = new Client("127.0.0.1", port_number_int);
     }
 }

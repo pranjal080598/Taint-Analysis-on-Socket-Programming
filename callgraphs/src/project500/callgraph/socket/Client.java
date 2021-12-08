@@ -75,16 +75,15 @@ public class Client
         System.out.println("Enter port number to establish connection");
         // Read user input
         String port_number = myObj.next();
-        // sanitize port number using regex
-        // remove  this for output with Taint
-        // if (port_number.matches(regex))
-        // {
-        //     int port_number_int = Integer.parseInt(port_number);
-        //     Client client = new Client("127.0.0.1", port_number_int);
-        // }
 
-        // comment this code incase of sanitization
-        int port_number_int = Integer.parseInt(port_number);
-        Client client = new Client("127.0.0.1", port_number_int);
+        if (port_number.matches(regex))
+        {
+            int port_number_int = Integer.parseInt(port_number);
+            Client client = new Client("127.0.0.1", port_number_int);
+        }
+
+
+//        int port_number_int = Integer.parseInt(port_number);
+//        Client client = new Client("127.0.0.1", port_number_int);
     }
 }

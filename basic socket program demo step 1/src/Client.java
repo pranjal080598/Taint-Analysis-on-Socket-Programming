@@ -71,6 +71,7 @@ public class Client
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter port number to establish connection");
         String port_number = myObj.next();
+        // convert port number to integer
         int port_number_int = Integer.parseInt(port_number);
         Client client = new Client("127.0.0.1", port_number_int);
     }

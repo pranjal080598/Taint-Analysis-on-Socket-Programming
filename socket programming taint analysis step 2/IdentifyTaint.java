@@ -62,8 +62,6 @@ public class IdentifyTaint {
     }
 
 
-    
-
     // to check if input sanitization is done
     try {
       List<String> content = Files.readAllLines(Paths.get(outputFileName), StandardCharsets.UTF_8);
