@@ -53,7 +53,7 @@ b. Download soot.jar package.
 
 c. Import the package to the project structure.
 
-d. Add all other libraries present in the repository to the libraries section the IDE.
+d. Add all other libraries present in the repository to the libraries section of the IDE.
 
 e. Specify appropriate Java Version in the project structure.
 
