@@ -42,12 +42,13 @@ b. Sanitization results:
 
 ![image](https://user-images.githubusercontent.com/46446655/145279953-152e8706-d0d6-4bfe-a5f4-eb066e449d5d.png)
 
-
-
 c. Non-Sanitization results:
 - Remove the pattern.matches regex to check if the port number contains only integer value in Client.java code.
 - On the command prompt, execute the command: 'javac IdentifyTaint.java' followed by 'java IdentifyTaint'
 - The result should depict that taint exists in the code and is propagated to Server code as the input it is not sanitized.
+
+![image](https://user-images.githubusercontent.com/46446655/145280121-218d4da8-ef65-4f0c-911d-f63e317b6783.png)
+
 
 ### Step 3: Call Graph Creation for Analyzing Affected Libraries
 
